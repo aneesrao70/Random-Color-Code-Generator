@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(to bottom right, green , white),linear-gradient(to top left, green , white);
+    background-image: linear-gradient(to bottom right, green , white),linear-gradient(to bottom, green , white);
+    background-repeat: no-repeat;
 }
 h1 {
     display: flex;
