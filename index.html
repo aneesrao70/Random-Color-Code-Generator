@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Color Code Generator</title>
+</head>
+<body onload="createBoxes()">
+    <h1>Random Color Code Generator</h1>
+    
+    <nav> 
+        <p class="boxes">Number of boxes(1 to 20):
+        <input id="box-nums" class="box-nums" type="number" min="1" max="20" >
+        </p>
+        <button onclick="createBoxes()">Enter</button>
+    </nav>
+    
+    <div class="container"></div>
+    <script src="index.js"></script>
+</body>
+</html>

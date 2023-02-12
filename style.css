@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(to bottom right, green , white),linear-gradient(to top left, green , white);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.container {
+    border-radius: 5px;
+    min-height: 50vh;
+    max-height: 100vh;
+    margin: 25px 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.color-container {
+    width: 200px;
+    height: 120px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    margin: 15px;  
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    box-shadow: 2px 3px 4px black;
+}
+input {
+    height: 23px;
+    width: 50px;
+    -moz-appearance: textfield;
+    text-align: center;
+    font-size: 16px;
+    background-color: aquamarine;
+    color: blue
+}
+
+nav {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 0;
+ color: white;
+ font-size: 20px;
+}
+button {
+    height: 30px;
+    width: 70px;
+    margin-left: 33px;
+    background-color: rgb(241, 213, 84);
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+@media screen and ( max-width: 400px ) {
+   nav {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }   
+    button {
+        margin-left: 0;
+    }
+}
